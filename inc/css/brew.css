@@ -1,0 +1,115 @@
+/* ==========================================================================
+
+   Ultimate Flat - Bootstrap On Page Template
+   CSS STYLE GREEN
+
+   ========================================================================== */
+/*#header,*/
+/*#opinions,*/
+/*#testimonial,*/
+/*#techstack{*/
+  /*background-color: #492c1b;*/
+  /*color: #fff;*/
+/*}*/
+/*#about a, #reactiveapplications a{*/
+  /*color: #492c1b;*/
+/*}*/
+/*#testimonial a{*/
+  /*color: #1b100a;*/
+/*}*/
+/*#reactiveapplications a.btn.btn-lead{*/
+  /*color: #fff;*/
+/*}*/
+/*#social {*/
+  /*background-color: #a48a7a;*/
+/*}*/
+/*.social-icon {*/
+  /*background-color: #1b100a;*/
+  /*color: #ffffff;*/
+/*}*/
+/*.text-white {*/
+  /*color: #ffffff;*/
+/*}*/
+/*.text-dark {*/
+  /*color: #1b100a;*/
+/*}*/
+/*#feature .item-icon {*/
+  /*border: 2px solid #0d2338;*/
+/*}*/
+/*----------------------------------------
+    SIDE MENU
+----------------------------------------*/
+#sidebar-wrapper {
+  background: #29509d;
+}
+.sidebar-nav li a {
+  color: #ffffff;
+}
+.sidebar-nav li a:hover {
+  color: #ffffff;
+  background: #fbfb17;
+}
+.sidebar-nav > .sidebar-brand a {
+  color: #ffffff;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #444444;
+}
+.toggle {
+  color: #fff;
+}
+.toggle:hover{
+  color: #1b100a;
+}
+/*----------------------------------------
+    CUSTOM BUTTON
+----------------------------------------*/
+.btn-lead {
+  color: #ffffff;
+  background-color: #351f14;
+  border-color: #351f14;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+.btn-lead:hover,
+.btn-lead:focus,
+.btn-lead:active,
+.btn-lead.active,
+.open .dropdown-toggle.btn-lead {
+  color: #ffffff;
+  background-color: #1b100a;
+  border-color: #1b100a;
+}
+.btn-lead:active,
+.btn-lead.active,
+.open .dropdown-toggle.btn-lead {
+  background-image: none;
+}
+.btn-lead.disabled,
+.btn-lead[disabled],
+fieldset[disabled] .btn-lead,
+.btn-lead.disabled:hover,
+.btn-lead[disabled]:hover,
+fieldset[disabled] .btn-lead:hover,
+.btn-lead.disabled:focus,
+.btn-lead[disabled]:focus,
+fieldset[disabled] .btn-lead:focus,
+.btn-lead.disabled:active,
+.btn-lead[disabled]:active,
+fieldset[disabled] .btn-lead:active,
+.btn-lead.disabled.active,
+.btn-lead[disabled].active,
+fieldset[disabled] .btn-lead.active {
+  background-color: #53e0c4;
+  border-color: #53e0c4;
+}
+.btn-lead .badge {
+  color: #53e0c4;
+  background-color: #ffffff;
+}
+.btn-link:hover {
+  color: #08aa89 !important;
+}
+
+

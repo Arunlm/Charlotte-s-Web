@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen, projection" />
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../js/verlet-1.0.0.js"></script>
+
+
+    <script type="text/javascript" src="../jquery.js">
+
+
+    </script>
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Strongbrew.io - Delicious javascript recipes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../inc/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../inc/css/brew.css">
+    <link href="../inc/flexslider/flexslider.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../inc/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="../inc/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="../inc/magnific-popup/magnific-popup.css">
+    <script src="../inc/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="chapters.css">
+
+</head>
+
+<body class="chapters">
+
+
+
+
+
+
+
+
+
+
+<!-- Side Menu -->
+<a id="menu-toggle" href="#menu" class="btn btn-links btn-lg toggle"><i class="fa fa-bars fa-lg"></i></a>
+
+
+
+
+
+<div id="sidebar-wrapper">
+    <div>
+        <li class="spacer-25px"><a id="menu-close" href="#menu" class="btn btn-links btn-lg toggle"><i class="fa fa-times fa-lg"></i></a></li>
+    </div>
+
+
+
+    <ul class="sidebar-nav02" >
+        <li class="spacer-25px"><a href="../Charlotte's Web by LiuMiao.html"><img  class="homeimg" src="../img/home.png" height="120" width="120"/></a></li>
+
+
+    </ul>
+
+
+
+    <ul class="sidebar-nav01" >
+
+
+        <li><a href="../animals.html#chapter01"><img id="e" src="../img/web/e.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter02"><img id="ma" src="../img/web/ma.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter03"><img id="shu" src="../img/web/shu.png" height="120" width="140"/></a></li>
+
+        <li><a href="../animals.html#chapter04"><img id="zhu" src="../img/web/zhu.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter05"><img id="niu" src="../img/web/niu.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter06"><img id="yang" src="../img/web/yang.png" height="95.0" width="125.2"/></a></li>
+
+
+
+
+    </ul>
+
+
+
+
+
+    <ul class="sidebar-nav">
+
+
+
+
+        <li><a href="./chapter01.html">1, Before Breakfast</a></li>
+        <li><a href="./chapter02.html">2, Wilbur</a></li>
+        <li><a href="./chapter03.html">3, Escape</a></li>
+        <li><a href="./chapter04.html">4, Loneliness</a></li>
+        <li><a href="./chapter05.html">5, Charlotte</a></li>
+        <li><a href="./chapter06.html">6, Summer Days</a></li>
+        <li><a href="./chapter07.html">7, Bad News</a></li>
+        <li><a href="./chapter08.html">8, A Talk at Home</a></li>
+        <li><a href="./chapter09.html">9, Wilbur's Boast</a></li>
+        <li><a href="./chapter10.html">10, An Explosion</a></li>
+        <li><a href="./chapter11.html">11, The Miracle</a></li>
+        <li><a href="./chapter12.html">12, A Meeting</a></li>
+        <li><a href="./chapter13.html">13, Good Progress</a></li>
+        <li><a href="./chapter14.html">14, Dr Dorian</a></li>
+        <li><a href="./chapter15.html">15, The Crickets</a></li>
+        <li><a href="./chapter16.html">16, Off to the Fair</a></li>
+        <li><a href="./chapter17.html">17, Uncle</a></li>
+        <li><a href="./chapter18.html">18, The Cool of the Evening</a></li>
+        <li><a href="./chapter19.html">19, The Egg Sac</a></li>
+        <li><a href="./chapter20.html">20, The Hour of Triumph</a></li>
+        <li><a href="./chapter21.html">21, Last Day</a></li>
+        <li><a href="./chapter22.html">22, A Warm Wind</a></li>
+
+
+    </ul>
+</div>
+<!-- End side menu -->
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../inc/js/jquery-1.11.0.min.js"><\/script>')</script>
+
+<script src="../inc/js/bootstrap.min.js"></script>
+
+<script src="../inc/js/main.js"></script>
+
+<!-- FLEXSLIDER -->
+<script src="../inc/flexslider/jquery.flexslider-min.js"></script>
+
+<!-- Include js plugin -->
+<script src="../inc/owl-carousel/owl.carousel.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="../inc/magnific-popup/jquery.magnific-popup.js"></script>
+
+<!-- Isotope JS file -->
+<script src="../inc/isotope/jquery.isotope.min.js"></script>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chapterbody">
+
+
+
+    <h2 style="text-align: center">尽善尽美</h2>
+
+<p>深夜，其他的动物都睡了，夏洛还在织他的网。她把网中央附近的一些圆线拉掉，只留下一些支撑住整张网的放射状线。在她工作时，她的八条腿起了很大的作用，她的牙也是。她喜欢织网，对这工作也很胜任。当她把多余的线都拆除以后，她的网看起来就像这样一个圆环：（原文下有图）
+
+    <p>一只蜘蛛能吐出很多种丝线。她用一种干的粗线作主线，用另一种黏的丝线作陷阱线--这些线是用来抓和粘昆虫的。夏洛决定用她的干丝线来织这新的预言。
+
+    <p>“如果我用黏线来织'很棒'这个单词，“她想，“每个撞上去的虫子都能破坏字的效果的。“
+
+    <p> “现在让我想想，第一个字母应该是T“。
+
+    <p> 夏洛爬到网左边的高处，把她的丝囊摆到正确的位置，横着拉了一条线，然后才开始下落。当她下落时，她的织网管开始运作起来，从中释放出丝线。荡到网底时，她收住了线。现在“T“这个字母的横线织成了。可是夏洛觉得它看上去并不理想。她又爬上去，在那道横线的右下方另外拉出了一条线，这样她就织好两道线了。“如果我把所有的字母都用双线织，看起来效果一定更完美。“
+
+    <p> 想着，她便往上爬回去，挪到左边织出的第一道横线下面约一英寸的地方，拍拍丝囊，向右平行地又拉出一道丝线，织成了由双线构成的字母“T“的上半部。接着她又同样的开始去织那两道竖线。她的八条腿不停地忙碌着，一会儿就把这个字母全织成了。
+
+    <p> “现在该织字母E了！“
+
+    <p> 夏洛对她这工作的兴趣越来越浓了，她一边干一边自语起来，好像这样能令她更兴奋。如果那天夜里你正静坐在谷仓地窖里，你就会听到下面的话：
+
+    <p> “现在开始织字母R！我们往上去！系住！下降！抽丝！停！系住！好的！你往上去！再来！系住！下降！抽丝。停，小姑娘！预备！系住！爬！系住！往右拽！拉线！现在往右往下转个圈儿转圈转圈儿！现在往左边来！系住！爬！再来！OK！小意思，把那些线连起来！现在，往下织R的一条腿儿！放线！停！系住！下降！再来！好姑娘！“
+
+    <p> 夏洛就这样一面自语着，一面做着她艰难的工作。这一切都弄完之后，她感到饿极了。她吃了一只事先储存的小虫子，便睡着了。
+
+    <p>第二天一早，威伯醒来后，便来到了网跟前。他的肺尽情呼吸着早晨的空气。网上的露珠，把阳光返照到网里，使那张网看起来格外清晰。当鲁维来送早餐时，一眼就看到了那头漂亮的猪，和猪的头顶上的那些织得整整齐齐的大写字母，那些字母拼成了一个单词“很棒“。这又是一个神迹。
+
+    <p>鲁维冲出去喊祖克曼先生。祖克曼先生冲出去喊祖克曼太太。祖克曼太太跑向电话给阿拉贝尔家打电话，阿拉贝尔一家钻进他们的卡车急忙赶了过来。
+
+    <p>每个人都站到猪圈里盯着蜘蛛网，把那单词反复读了又读。这时威伯也觉得自己很棒了，他骄傲地挺着胸脯站在那里，快活的把鼻子不停地晃来晃去。
+
+    <p> “很棒！“祖克曼以带着羡慕的骄傲说。“伊迪丝，你最好给《时代周刊》的记者打个电话，告诉他们这里出了什么事儿。他们会对这个感兴趣的，没准儿还会派个摄影记者来呢。我们整个州都没有我们这么棒的猪。“
+
+    <p> 消息传开了。当威伯是“好猪“时，那些曾从远方来看的人，现在又回来看他是多么的“很棒“了。
+
+    <p>那天下午，在祖克曼先生去给母牛挤奶并清理牛粪时，他还在想着他拥有了一头多么奇异的猪。
+
+    <p> “鲁维！“他喊。“不要再把牛粪倒进猪圈了。我有了一头很棒的猪。我想让那头猪保持清洁，每天用稻草给他铺床。明白了吗？“
+
+    <p> “是的，先生。“鲁维说。
+
+    <p>“另外，祖克曼先生说，“我要你给威伯造一个板条箱，我决定把这头猪带到九月十六日的郡农业展览会（County Fair）上去。把这箱子造大些，漆成绿色，上面写上金字儿！“
+
+    <p> “写什么字呢？“鲁维问。
+
+    <p>  “上面应该写'祖克曼家的名猪'“。
+
+    <p>  鲁维拾起长柄叉去弄干净的稻草了。有了这样一头重要的猪，就意味着要有大量的额外工作，他能明白这一点。
+
+    <p> 苹果园下的小路尽头，是祖克曼先生扔各种垃圾和废物的地方，没人愿意到那里去。那儿，在一丛小桦树与野覆盆子的遮掩下，有一小块开阔地，里面堆满了多得惊人的垃圾：有旧瓶子，空罐头盒，破链条，坏弹簧，废电池，上月的杂志，用旧的破碗刷，褴褛的工作服，生锈的钉子，漏了的桶，被遗忘的塞子，还有各种别的无用的垃圾，甚至包括从一个破冰激凌机上掉下来的，不能用的曲柄。
+
+    <p> 坦普尔曼熟悉这个垃圾堆，也喜欢这里。这是个藏身的好地方--对一个老鼠特别合适。那里还通常有可口的，吃剩的罐头。
+
+    <p> 坦普尔曼此刻正在那里搜寻。当他回到谷仓时，他的嘴里咬着从一本皱巴巴的杂志里撕下来的一条广告词。</p>
+
+
+    <blockquote>    “这个怎么样？“他把这广告递给夏洛问。“这上面写着'脆生生'，'脆生生'是你可以织到网里的一个好词儿。“</blockquote>
+
+    <blockquote>“这是个糟糕的词，“夏洛回答。“不能再糟了。我们不想让祖克曼以为威伯是脆生生的，这样他就会联想起脆的、嚼起来嘎嘎带响儿的腌肉和美味的火腿来的。这个词绝对能给他这种印象。我们要宣扬的是威伯的贵族气质，而不是他的滋味。请找个别的词来吧，坦普尔曼！“</blockquote>
+
+    <blockquote>老鼠有些不太高兴了。但他还是又偷偷爬回垃圾堆，带了一块布回来。“这个如何？“他问。“这是一件破衬衣上的商标。“</blockquote>
+
+    <blockquote>夏洛检查着这标签。上面写着“事先缩过水。“</blockquote>
+
+    <blockquote>“抱歉，坦普尔曼，“她说，“'事先缩过水'这个词太离谱了。我们想要祖克曼觉得威伯很丰满，而不是缩了水的。我不得不请你再试一次了。“</blockquote>
+
+    <blockquote> “你以为我是谁，一个小搬运工吗？“老鼠抱怨。“我可不想把我的时间浪费在去垃圾堆翻广告词上面。“</blockquote>
+
+    <blockquote> “就再去一次--求你了！“夏洛说。</blockquote>
+
+    <blockquote> “我告诉你我这次给你带什么来，“坦普尔曼说。“我知道柴棚里有一个肥皂包装盒，那上面也写着广告。我给你撕一小块带回来吧。“</blockquote>
+
+    <blockquote> 他顺着悬在墙上的绳子爬进天花板上的一个小洞里去了。当他再回来时，嘴里咬着一片蓝白相间的硬纸板。</blockquote>
+
+    <blockquote>  “这个！“他胜利地说。“怎么样？“</blockquote>
+
+    <blockquote>  夏洛读着上面的字：“带着闪光的新行动“。</blockquote>
+
+    <blockquote> “那是什么意思？“一生中从没用过肥皂的夏洛问。</blockquote>
+
+    <blockquote>  “我怎么知道？“坦普尔曼说。“你是在问我带来的这些字是什么意思吗？我想你马上要让我替你找本字典来吧。“</blockquote>
+
+    <blockquote>  他们一起研究着这条肥皂广告。“带着闪光的新行动“，夏洛慢慢地重念着。“威伯！“她喊道。</blockquote>
+
+    <blockquote>  正在稻草堆里睡觉的威伯跳了起来。</blockquote>
+
+    <blockquote>   “转圈跑！“夏洛命令。“我想看你动起来的样子是不是闪光。“</blockquote>
+
+    <blockquote>  威伯跑到了院子的尽头。</blockquote>
+
+    <blockquote> “现在跑回来，快点！“夏洛说。</blockquote>
+
+    <blockquote>  威伯飞奔过来。他的皮肤很光滑。他的尾巴很好看，上面还打着一个漂亮的卷儿。</blockquote>
+
+    <blockquote> “往天上跳！“夏洛喊道。</blockquote>
+
+    <blockquote> 威伯跳得尽可能的高。</blockquote>
+
+    <blockquote> “伸直腿，耳朵挨到地面！“夏洛道。</blockquote>
+
+    <blockquote>  威伯照做不误。</blockquote>
+
+    <blockquote>  “在空中转个半圈儿。“夏洛喊。</blockquote>
+
+    <blockquote>  威伯扭过身子，转着圈子跳了起来。</blockquote>
+
+    <blockquote>  “OK，威伯，“夏洛说。“你可以回去睡觉了。OK，坦普尔曼，这条肥皂广告还可以，我猜。我只是不能确定威伯跑时是否闪着光，不过那却很有意思。“</blockquote>
+
+    <blockquote>  “实际上，“威伯说，“我感觉我在闪光。“</blockquote>
+
+    <blockquote>  “是吗？“夏洛说着，深情地看着他。“是的，你是一头可爱的小猪，你也会闪光的。我在这件事儿上花的时间够多了--我想还是到此为止吧。“</blockquote>
+
+
+    <p>   乱蹦了半天的威伯也累了，便躺进干净的稻草堆，闭上了眼睛。这稻草好像有点儿痒--不像牛粪那么令人舒服。软软的躺在牛粪堆里的感觉才舒服呢。因此他把稻草拱到一边，扒进了牛粪堆里。威伯叹了一口气。他在变得很棒后的第一天可真够忙的。下午有数不清的人到他的院子里参观，所以他不得不一直装模作样地傻站在那里，好使自己看起来显得确实很棒。现在他累极了。芬已经来了，就在角落里的那张小凳子上静静地坐着。</p>
+
+
+<blockquote>    “给我讲一个故事吧，夏洛！“威伯睡前说。“给我讲个故事！“</blockquote>
+
+    <blockquote> 虽然夏洛也很疲倦，可还是满足了威伯的请求。</blockquote>
+
+    <blockquote> “从前，“她开始讲，“我有一个美丽的表妹，在一条特别小的小溪上空织了一张网。一天，一条跳出水的小鱼蹦到了她的网里。当然，我的表妹很吃惊。那条鱼发疯地在里面跳着。我表妹吓得开始都不敢去抓它。但她镇静了一下，就勇敢地爬过来，往鱼身上缠了大量的丝线，准备抓住它。“</blockquote>
+
+    <blockquote>“她成功了吗？“威伯问。</blockquote>
+
+    <blockquote> “那是一场永远-不-会-忘-记的战斗，“夏洛说。“那只一条鳍被缠住的鱼，尾巴摆动得那么粗野，还在太阳下闪着银光呢。那张网，也危险地随着鱼的重量往下陷。“</blockquote>
+
+    <blockquote> “那条鱼有多重？“威伯急切地问。</blockquote>
+
+    <blockquote>“我不知道，“夏洛说。“我只知道我的表妹在不停地闪躲、进攻着，虽然她的脑袋被那条拼命蹦的鱼残忍地揍了很多下，也还是在和鱼做着殊死的搏斗。她先往鱼尾的左边抛了一道丝，于是鱼就往右蹦；接着她往鱼尾左边抛了一道丝，又往中间偏右的地方抛了一道，鱼便往回跳。然后她溜到另一边，往鱼的右边缠线，去捆右边的那条鳍。等她的线缠到左边的鱼头时，网开始剧烈地摇晃起来。“</blockquote>
+
+    <blockquote>“接着怎么样了？“威伯问。</blockquote>
+
+    <blockquote> “没什么，“夏洛说。“鱼失去了战斗力。我表妹把它紧紧捆得不能动了。“</blockquote>
+
+    <blockquote> “完了呢？“威伯问。</blockquote>
+
+    <blockquote> “完了就完了呗，“夏洛说。“我表妹让鱼在那里呆了一会儿，等她恢复了精力后，就把它吃了。“</blockquote>
+
+    <blockquote> “再给我讲个别的故事！“威伯央求。</blockquote>
+
+    <blockquote> 夏洛就又给威伯讲了她的另一个当飞艇驾驶员的表妹的故事。</blockquote>
+
+    <blockquote>  “什么是飞艇驾驶员？“威伯问。</blockquote>
+
+    <blockquote> “就是热汽球驾驶员，“夏洛说。“我的表妹常把脚站在头上，抛出很多游丝，把它们缠成一个大汽球。然后她就把这汽球放向空中，自己也随之乘着暖暖的风往上飘。“</blockquote>
+
+    <blockquote> “那是真的吗？“威伯说。“或者你是在胡编？“</blockquote>
+
+    <blockquote> “那是真的，“夏洛回答。“我有好几个本领高强的表妹呢。现在，威伯，你该去睡觉了。“</blockquote>
+
+    <blockquote> “唱个歌儿吧！“威伯闭上眼，求着夏洛。</blockquote>
+
+
+
+<p> 伴随着草丛和渐暗的谷仓里传出的蟋蟀的低吟，夏洛轻轻地唱了一支催眠曲。她是这么唱的：
+
+    <p> 睡吧，睡吧，我的爱，我唯一的宝贝，
+
+    <p>深深地，深深地，在粪堆和静夜里安睡；
+
+    <p>不知道恐惧也不知道孤单的滋味！
+
+    <p>此刻只有那些青蛙和画眉
+
+    <p>在树林和灯心草间将世界赞美。
+
+    <p>安心地休息吧，我唯一的唯一的宝贝，
+
+
+
+    <p>深深地，深深地，在粪堆和静夜里安睡！
+
+    <p>威伯还没有听完就睡着了。当这支歌唱完，芬才站起身回了往家。
+
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

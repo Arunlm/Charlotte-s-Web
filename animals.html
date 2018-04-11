@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animals</title>
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen, projection" />
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="./js/verlet-1.0.0.js"></script>
+
+
+    <script type="text/javascript" src="jquery.js">
+
+
+    </script>
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Strongbrew.io - Delicious javascript recipes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="inc/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inc/css/brew.css">
+    <link href="inc/flexslider/flexslider.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="inc/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="inc/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="inc/magnific-popup/magnific-popup.css">
+    <script src="inc/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+
+    <link rel="stylesheet" href="animals.css">
+
+
+
+</head>
+
+
+<body class="animalscss">
+
+
+
+
+
+
+
+
+
+
+
+<!-- Side Menu -->
+<a id="menu-toggle" href="#menu" class="btn btn-links btn-lg toggle"><i class="fa fa-bars fa-lg"></i></a>
+
+
+
+
+
+<div id="sidebar-wrapper">
+    <div>
+        <li class="spacer-25px"><a id="menu-close" href="#menu" class="btn btn-links btn-lg toggle"><i class="fa fa-times fa-lg"></i></a></li>
+    </div>
+
+
+
+    <ul class="sidebar-nav02" >
+        <li class="spacer-25px"><a href="Charlotte's Web by LiuMiao.html"><img  class="homeimg" src="./img/home.png" height="120" width="120"/></a></li>
+
+
+    </ul>
+
+
+
+    <ul class="sidebar-nav01" >
+
+
+        <li><a href="animals.html#chapter01"><img id="e" src="./img/web/e.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="animals.html#chapter02"><img id="ma" src="./img/web/ma.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="animals.html#chapter03"><img id="shu" src="./img/web/shu.png" height="120" width="140"/></a></li>
+
+        <li><a href="animals.html#chapter04"><img id="zhu" src="./img/web/zhu.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="animals.html#chapter05"><img id="niu" src="./img/web/niu.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="animals.html#chapter06"><img id="yang" src="./img/web/yang.png" height="95.0" width="125.2"/></a></li>
+
+
+
+
+    </ul>
+
+
+
+
+
+    <ul class="sidebar-nav">
+
+
+
+
+        <li><a href="chapters/chapter01.html">1, Before Breakfast</a></li>
+        <li><a href="chapters/chapter02.html">2, Wilbur</a></li>
+        <li><a href="chapters/chapter03.html">3, Escape</a></li>
+        <li><a href="chapters/chapter04.html">4, Loneliness</a></li>
+        <li><a href="chapters/chapter05.html">5, Charlotte</a></li>
+        <li><a href="chapters/chapter06.html">6, Summer Days</a></li>
+        <li><a href="chapters/chapter07.html">7, Bad News</a></li>
+        <li><a href="chapters/chapter08.html">8, A Talk at Home</a></li>
+        <li><a href="chapters/chapter09.html">9, Wilbur's Boast</a></li>
+        <li><a href="chapters/chapter10.html">10, An Explosion</a></li>
+        <li><a href="chapters/chapter11.html">11, The Miracle</a></li>
+        <li><a href="chapters/chapter12.html">12, A Meeting</a></li>
+        <li><a href="chapters/chapter13.html">13, Good Progress</a></li>
+        <li><a href="chapters/chapter14.html">14, Dr Dorian</a></li>
+        <li><a href="chapters/chapter15.html">15, The Crickets</a></li>
+        <li><a href="chapters/chapter16.html">16, Off to the Fair</a></li>
+        <li><a href="chapters/chapter17.html">17, Uncle</a></li>
+        <li><a href="chapters/chapter18.html">18, The Cool of the Evening</a></li>
+        <li><a href="chapters/chapter19.html">19, The Egg Sac</a></li>
+        <li><a href="chapters/chapter20.html">20, The Hour of Triumph</a></li>
+        <li><a href="chapters/chapter21.html">21, Last Day</a></li>
+        <li><a href="chapters/chapter22.html">22, A Warm Wind</a></li>
+
+
+    </ul>
+</div>
+<!-- End side menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="inc/js/jquery-1.11.0.min.js"><\/script>')</script>
+
+<script src="inc/js/bootstrap.min.js"></script>
+
+<script src="inc/js/main.js"></script>
+
+<!-- FLEXSLIDER -->
+<script src="inc/flexslider/jquery.flexslider-min.js"></script>
+
+<!-- Include js plugin -->
+<script src="inc/owl-carousel/owl.carousel.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="inc/magnific-popup/jquery.magnific-popup.js"></script>
+
+<!-- Isotope JS file -->
+<script src="inc/isotope/jquery.isotope.min.js"></script>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div style="position: absolute">-->
+
+
+
+    <!--<a href="animals.html"><img id="e" src="./img/web/e.png" height="95.0" width="125.2"/></a>-->
+
+    <!--<a href="animals.html"><img id="ma" src="./img/web/ma.png" height="95.0" width="125.2"/></a>-->
+
+    <!--<a href="animals.html"><img id="shu" src="./img/web/shu.png" height="95.0" width="125.2"/></a>-->
+
+    <!--<a href="animals.html"><img id="zhu" src="./img/web/zhu.png" height="95.0" width="125.2"/></a>-->
+
+    <!--<a href="animals.html"><img id="niu" src="./img/web/niu.png" height="95.0" width="125.2"/></a>-->
+
+    <!--<a href="animals.html"><img id="yang" src="./img/web/yang.png" height="95.0" width="125.2"/></a>-->
+
+
+
+<!--</div>-->
+
+
+
+
+
+<div id="animalshome">
+
+
+<div id="summary">
+
+    <p>  一个蛛和小猪的故事，写给孩子，也写给大人。</p>
+
+    <p>在朱克曼家的谷仓里，快乐地生活着一群动物，其中小猪威尔伯和蜘蛛夏洛建立了最真挚的友谊。然而，一个最丑恶的消息打破了
+        谷仓的平静：威尔伯未来的命运竟是成为熏肉火腿。作为一只猪，悲痛绝望的威尔伯似乎只能接受任人宰割的命运了，然而，看似渺小
+        的夏洛却说：“我救你。”于是，夏洛用自己的丝在猪栏上织出了被人类视为奇迹的网上文字，彻底逆转了威尔伯的命运，终于让它在集
+        市的大赛中赢得特别奖，和一个安享天命的未来。但，这时，蜘蛛夏洛的生命却走到了尽头……</p>
+
+</div>
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+    <div id="zhi01">
+        <a name="chapter00"><img id="zhi" src="./img/web/zhi.png" height="95.0" width="125.2"/></a>
+
+
+        <div>
+
+            <p>是一只每天在门框上织网的灰蜘蛛，孤单的威尔伯在农场的
+                谷仓里遇到了夏洛特，这使它们成了无话不谈的好朋友。当
+                它知道威尔伯要被做成腊肠的处境之后，它不仅安慰威尔伯，
+                还决定帮助威尔伯逃脱厄运。它承诺会让威尔伯看到冬天的
+                雪。然而在冬天，原本就短命的它却死了。第二年春天，它
+                的孩子出生，让威尔伯有了新朋友。</p>
+
+            <p>这原本是只孤独的蜘蛛，它被农场的所有生灵蔑视。自
+                从威尔伯来到后，他有了朋友，向朋友作出了许诺。它为了
+                这个许诺，耗尽了自己的生命，但却使它们的友谊长存，他
+                的平凡，造就了一个伟大的奇迹。</p>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <div id="zhu04">
+        <a name="chapter04" ><img id="zhu" src="./img/web/zhu.png" height="95.0" width="125.2"/></a>
+
+
+        <div>
+
+            <p>一只瘦弱的小猪，出于天性，从出生那天起就十分担心，
+                自己早晚有一天会成为人们餐桌上的美味。不过聪明可爱的
+                它很快博得了小姑娘芬恩的喜欢。它天真烂漫，很快就以其
+                热情、开朗的性格和农场里的动物成了好朋友。</p>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+    <div id="e01">
+    <a name="chapter01"><img id="e" src="./img/web/e.png" height="95.0" width="125.2"/></a>
+
+
+    <div>
+
+        <p>它是一只刻薄聒噪的鹅太太。无聊时就挤兑一下小猪威
+            尔伯的智商，但在关键时刻也誓死捍卫威尔伯绝不要做香肠
+            熏肉的权利。</p>
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+    <div id="ma02">
+    <a name="chapter02"><img id="ma" src="./img/web/ma.png" height="95.0" width="125.2"/></a>
+
+    <div>
+
+        <p>热衷本质工作的马，早先对夏洛反应剧烈，后渐渐友善，
+            善待夏洛的孩子们。</p>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <div id="shu03">
+    <a name="chapter03"><img id="shu" src="./img/web/shu.png" height="95.0" width="125.2"/></a>
+
+    <div>
+
+        <p>一只神通广大的小田鼠，善于在通风报信之余给自己顺
+            点吃的。帮助夏洛特在织网的时候找到杂志，从而使夏洛特
+            将杂志上的文字织在网上。</p>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+    <div id="niu05">
+    <a name="chapter05"><img id="niu" src="./img/web/niu.png" height="95.0" width="125.2"/></a>
+
+
+    <div>
+
+        <p>敦厚老实的奶牛，心地淳朴善良，勤恳工作。</p>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <div id="yang06">
+    <a name="chapter06"><img id="yang" src="./img/web/yang.png" height="95.0" width="125.2"/></a>
+
+
+    <div>
+
+        <p>早期对威伯百般嘲讽的老羊，多嘴泄漏了不该提及的威
+            伯的命运，后被威伯善意感染后改变。</p>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

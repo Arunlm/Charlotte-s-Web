@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen, projection" />
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../js/verlet-1.0.0.js"></script>
+
+
+    <script type="text/javascript" src="../jquery.js">
+
+
+    </script>
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Strongbrew.io - Delicious javascript recipes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../inc/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../inc/css/brew.css">
+    <link href="../inc/flexslider/flexslider.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../inc/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="../inc/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="../inc/magnific-popup/magnific-popup.css">
+    <script src="../inc/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="chapters.css">
+
+</head>
+
+<body class="chapters">
+
+
+
+
+
+
+
+
+
+
+
+<!-- Side Menu -->
+<a id="menu-toggle" href="#menu" class="btn btn-links btn-lg toggle"><i class="fa fa-bars fa-lg"></i></a>
+
+
+
+
+
+<div id="sidebar-wrapper">
+    <div>
+        <li class="spacer-25px"><a id="menu-close" href="#menu" class="btn btn-links btn-lg toggle"><i class="fa fa-times fa-lg"></i></a></li>
+    </div>
+
+
+
+    <ul class="sidebar-nav02" >
+        <li class="spacer-25px"><a href="../Charlotte's Web by LiuMiao.html"><img  class="homeimg" src="../img/home.png" height="120" width="120"/></a></li>
+
+
+    </ul>
+
+
+
+    <ul class="sidebar-nav01" >
+
+
+        <li><a href="../animals.html#chapter01"><img id="e" src="../img/web/e.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter02"><img id="ma" src="../img/web/ma.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter03"><img id="shu" src="../img/web/shu.png" height="120" width="140"/></a></li>
+
+        <li><a href="../animals.html#chapter04"><img id="zhu" src="../img/web/zhu.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter05"><img id="niu" src="../img/web/niu.png" height="95.0" width="125.2"/></a></li>
+
+        <li><a href="../animals.html#chapter06"><img id="yang" src="../img/web/yang.png" height="95.0" width="125.2"/></a></li>
+
+
+
+
+    </ul>
+
+
+
+
+
+    <ul class="sidebar-nav">
+
+
+
+
+        <li><a href="./chapter01.html">1, Before Breakfast</a></li>
+        <li><a href="./chapter02.html">2, Wilbur</a></li>
+        <li><a href="./chapter03.html">3, Escape</a></li>
+        <li><a href="./chapter04.html">4, Loneliness</a></li>
+        <li><a href="./chapter05.html">5, Charlotte</a></li>
+        <li><a href="./chapter06.html">6, Summer Days</a></li>
+        <li><a href="./chapter07.html">7, Bad News</a></li>
+        <li><a href="./chapter08.html">8, A Talk at Home</a></li>
+        <li><a href="./chapter09.html">9, Wilbur's Boast</a></li>
+        <li><a href="./chapter10.html">10, An Explosion</a></li>
+        <li><a href="./chapter11.html">11, The Miracle</a></li>
+        <li><a href="./chapter12.html">12, A Meeting</a></li>
+        <li><a href="./chapter13.html">13, Good Progress</a></li>
+        <li><a href="./chapter14.html">14, Dr Dorian</a></li>
+        <li><a href="./chapter15.html">15, The Crickets</a></li>
+        <li><a href="./chapter16.html">16, Off to the Fair</a></li>
+        <li><a href="./chapter17.html">17, Uncle</a></li>
+        <li><a href="./chapter18.html">18, The Cool of the Evening</a></li>
+        <li><a href="./chapter19.html">19, The Egg Sac</a></li>
+        <li><a href="./chapter20.html">20, The Hour of Triumph</a></li>
+        <li><a href="./chapter21.html">21, Last Day</a></li>
+        <li><a href="./chapter22.html">22, A Warm Wind</a></li>
+
+
+    </ul>
+</div>
+<!-- End side menu -->
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../inc/js/jquery-1.11.0.min.js"><\/script>')</script>
+
+<script src="../inc/js/bootstrap.min.js"></script>
+
+<script src="../inc/js/main.js"></script>
+
+<!-- FLEXSLIDER -->
+<script src="../inc/flexslider/jquery.flexslider-min.js"></script>
+
+<!-- Include js plugin -->
+<script src="../inc/owl-carousel/owl.carousel.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="../inc/magnific-popup/jquery.magnific-popup.js"></script>
+
+<!-- Isotope JS file -->
+<script src="../inc/isotope/jquery.isotope.min.js"></script>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chapterbody">
+
+
+
+    <h2 style="text-align: center">神迹</h2>
+
+
+<p>第二天起雾了。农场里的一切都被雾水打湿了。草地看起来像有魔力的地毯。龙须菜地看起来则像一片银色的森林。
+
+    <p>晨雾中，夏洛的网显得异常的绮丽。每一缕细细的丝线上都缀满无数的小珠子。这张在晨光中泛着莹光的网，里面织着可爱而又神秘的图案，看起来就如同一层纤美的面纱。即使从来对美丽不是很在意的鲁维，在给威伯送早饭时也注意到了这张网。他注意到这网被编织得有多么大，多么的精致。当他再看时，发现了某种使他吃惊的事，慌乱中不觉扔下了食桶。那儿，就在网的中心，织着两排漂亮的大写字母，好像是在传达某种信息。那上面的字母是：
+
+    <p>“好猪！“
+
+    <p>鲁维怔住了。他用手来回揉了揉眼睛，死死地盯向夏洛的网。
+
+    <p>“我看到什么了？“他喃喃说着，跌跪下去，急急地祈祷了一番。然后，他忙回到房子里去喊祖克曼先生，全没想到威伯的早餐。
+
+    <p>“我想你最好到猪圈去一下，“他说。
+
+    <p>“怎么了？“祖克曼先生问。“猪出什么毛病了吗？“
+
+    <p>“不-不是，“鲁维说。“你自己去看吧。“
+
+    <p> 两个男人悄悄来到威伯的院子里。鲁维指向那蜘蛛网。“你看我看见了什么？“他说。
+
+    <p> 祖克曼先生盯着网上的字母，念着上面的“好猪“这个词。然后他看了看鲁维。这时他们都开始哆嗦了。昨夜忙碌了一宿的夏洛，此刻已经醒来，正微笑着看着这一切。威伯一直朝网这边走过来。
+
+    <p> “好猪！“鲁维低声嘟囔着。
+
+    <p>“好猪！“祖克曼先生低语。接下来的很长一段时间里，他们只是把威伯看了又看，然后才朝夏洛看去。
+
+    <p>“你不是猜是那…那只蜘蛛……“祖克曼先生摇摇头，没再继续说下去。他神色庄重地回到房子里，把这事情说给他的太太听。“伊迪丝，某种事情发生了，“他嗫嚅着，走进起居室坐下。祖克曼太太跟了过来。
+
+    <p>“我有些话要告诉你，伊迪丝，“他说。“你最好还是坐下来。“
+
+    <p> 祖克曼太太陷到了椅子里。她吓得脸都白了。
+
+    <p> “伊迪丝，“他试着让他的声音听起来不那么激动，“我想你最好知道，我们有了一头极不寻常的猪。“
+
+    <p> 祖克曼太太的脸上显出一副迷惑不解的神情。“霍默·祖克曼，你到底想要说什么？“她说。
+
+    <p> “这是一件非常严肃的事情，伊迪丝，“他回答道。“我们的猪完全是出类拔萃的。“
+
+    <p>  “这猪有什么特别的地方？“祖克曼太太问着，开始不那么害怕了。
+
+    <p>   “嗯，我也不知道该怎么说，“祖克曼先生说。“我们得到了一个暗示，伊迪丝--一个神秘的暗示。一个奇迹已经在这个农场上出现了。谷仓地窖门口有一个大蜘蛛网，它就在猪圈上边。今早我和鲁维去喂猪时，因为雾的关系他看到了那张网，你知道一张蜘蛛网在雾里显得有些特别。就在网的中央，写着'好猪'这个词。这个词完全是由蜘蛛网织出来的。它们本身就是网的一部分，伊迪丝。我知道这点，因为我在那儿看到了它。那上面写着的'好猪'，看起来再清楚不过了。我绝不能看错的。一个奇迹发生了，一个神示在地球上出现了，它就在我们的农场，我们有了一头不同凡响的猪。“
+
+    <p>  “哦，“祖克曼太太说，“我觉得你好像弄拧了。我看我们是有了一头不同凡响的蜘蛛才对。“
+
+    <p> “噢，不！“祖克曼说，“是这猪不一般，那蜘蛛网的中间就这么说的。“
+
+    <p> “可能如此吧，“祖克曼太太说。“虽然如此，我还是打算去看看那只蜘蛛。“
+
+    <p> “那只是一只很普通的灰蜘蛛。“祖克曼说。
+
+    <p> 他们站起来，一同往威伯的院子走。“你看到了吗，伊迪丝？它是只很平常的灰蜘蛛。“
+
+    <p> 威伯很高兴能如此引人注目。还在那儿站着的鲁维，祖克曼先生和太太，三个人一起在那里站了大约一小时，一遍遍地读着网里的词，并观察着威伯。
+
+    <p> 夏洛为她成功地愚弄了这些人而开心。她一动不动地坐在那里，听着人们的交谈。一只小苍蝇撞到网里，马上就要朝“猪“这个字爬过来了。夏洛见了忙跑过去把苍蝇缠住，拖远。
+
+    <p> 不久，雾散了。网也干了，这些字母看起来也不那么美了。祖克曼夫妇和鲁维走回了房子。在离开猪圈前，祖克曼先生最后又看了威伯一眼。
+
+    <p> “你知道，“他庄重地说，“我想从哪方面看我们的猪都格外的优秀。他是头很结实的猪，比别的猪都壮实。你注意到他的肩膀下有多么结实吗，鲁维？“
+
+    <p> “当然，当然，“鲁维说。“我总是注意那头猪。他是头不一般的猪。“
+
+    <p> “他是那么的长，身上那么的光滑，“祖克曼说。
+
+    <p> “的确，“鲁维表示同意。“他比别的猪光滑得多。他是头好猪。“
+
+    <p> 祖克曼先生回到了家，便脱下工作服，穿上了他最好的衣裳。然后他进了他的车，向牧师家驶去。他在牧师那里花了一小时，讲述在他的农场出现的奇迹。
+
+    <p> “到现在为止，“祖克曼说，“这个地球上只有四个人知道这个奇迹--我，我妻子伊迪丝，我的雇工鲁维，还有你。“
+
+    <p> “先别对任何人说，“牧师说，“我们还不知道那预示着什么，但如果我思考一下，就能在下周的布道会上解释这一切。无疑，你有了一头最不寻常的猪。我打算在我的布道会上指出，这个社区出现了一种多么不寻常的动物。顺便问一句，那猪有名字吗？“
+
+    <p> “是的，有，“祖克曼先生说。“我的小外甥女叫他威伯。她是个相当古怪的小孩--脑子里都是奇特的念头。她用奶瓶给这头猪喂奶，当小猪一个月大时，我才把他从她那里买来的。“
+
+    <p> 他和牧师握了握手，然后离开了。
+
+    <p> 秘密是很难被保住的。远在星期日到来之前，这消息就传遍了整个村子。每个人都知道一个神示在祖克曼先生家的蜘蛛网里出现了。每个人都知道祖克曼一家有了一头奇异的猪。人们从四面八方赶来看威伯，读着夏洛的网里的字。祖克曼家的车道上从早到晚都停满了小车和大卡车--福特，雪佛莱，别克，通用皮卡、普利茅斯、斯塔德贝克、帕卡德、带陀螺变速器的德索托、带火箭引擎的奥兹莫比尔、旅行吉普和庞蒂亚克牌汽车等等都开过来了。②这头神奇的小猪的消息也传进了山里，那些农场主们都赶着他们各式的马车来了，一小时接一小时地在威伯的猪圈里艳羡地看着这头神奇的动物。所有人都声称在一生中从没见过这样的猪。
+
+    <p> 当芬把埃弗里曾想把祖克曼的蜘蛛用棍子打下来的事告诉了她的妈妈后，阿拉贝尔太太一怒之下没让埃弗里吃晚饭，就把他赶上了床，以示惩罚。
+
+    <p>  接下去的几天里，祖克曼先生由于整天忙着招待这些来访者，竟然忘记了他的农活。他时刻穿着他最好的衣服--早上一起床就往人群里走。祖克曼太太给威伯准备了特别的饭菜。鲁维刮了脸，也理了发；他在农场里最首要的任务就是在人们来参观时喂那头猪。
+
+    <p>  祖克曼先生命令鲁维把威伯的吃饭次数从一天三次增加到四次。祖克曼一家如此忙于应付这些来访的人众，都忘了农场里还有别的事情要做了。黑莓熟了，可祖克曼太太却忘了把它们采摘，做成果酱。玉米地需要锄草了，可鲁维却找不到时间去锄草。
+
+    <p>  星期日，教堂挤满了人。牧师对这奇迹解释了一通。他说这蜘蛛网上的字说明，人类必须时刻准备去观察神迹的出现。
+
+    <p>祖克曼家的猪圈成了众人注意的焦点。芬很开心，因为她知道夏洛的把戏取得了成效，威伯的命也保住了。只是她觉得谷仓里现在不那么令她高兴了--那里的人太多了。她更愿意能和她的动物朋友单独在一起。</p>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

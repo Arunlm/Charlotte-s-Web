@@ -1,0 +1,40 @@
+.animalscss{
+    background: #29509d;
+
+    
+}
+
+
+#animalshome{
+
+    font-family: "Source Han Sans CN";
+
+
+    font-weight:lighter;
+
+    line-height: 28px;
+
+    color: white;
+
+    font-size:16px;
+    color: #ffffff;
+
+
+}
+
+
+
+#animalshome div{
+
+    padding-top: 50px;
+
+
+}
+
+
+#summary{
+
+    font-size: 18px;
+
+
+}

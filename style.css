@@ -1,0 +1,229 @@
+/* ==========================================================================
+   ThemeintheBox.com
+   presents
+
+   Ultimate Flat - Bootstrap On Page Template
+   vers. 2
+   demo: http://themeinthebox.com/demo/ultimate-flat/
+   docs: http://themeinthebox.com/demo/ultimate-flat/docs/
+   changelog: http://themeinthebox.com/ultimate-flat/
+
+   ========================================================================== */
+
+/* Font Awesome */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
+
+
+
+#charlotte{
+
+
+
+}
+
+
+
+
+
+/*----------------------------------------
+    SIDE MENU
+----------------------------------------*/
+
+#sidebar-wrapper {
+    margin-right: -750px;
+    right: 0;
+    list-style: none;
+
+    width: 750px;
+    position: fixed;
+    padding-top: 0px;
+
+
+    height: 100%;
+    overflow-y: auto;
+
+
+    _position:absolute;/* 把导航栏位置定义为绝对位置  关键*/
+    /*_top:expression(documentElement.scrollTop + "px"); !* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 *!*/
+
+
+
+    /*overflow-y: visible;*/
+    z-index: 1000;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+
+.sidebar-nav02{
+
+
+    float: left;
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding-left: 80px;
+    z-index: 500;
+
+}
+.sidebar-nav01{
+
+    float: left;
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding-left: 280px;
+    z-index: 300;
+
+}
+.sidebar-nav {
+    float: left;
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding-left: 500px;
+}
+.sidebar-nav li {
+    white-space:nowrap;
+
+    /*overflow:hidden;*/
+
+    text-overflow: ellipsis;
+
+    -o-text-overflow:ellipsis;
+
+    /*float: left;*/
+    line-height: 40px;
+    text-indent: 20px;
+}
+.sidebar-nav02 li a,
+.sidebar-nav01 li a,
+.sidebar-nav li a {
+    /*float: right;*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+}
+
+.sidebar-nav02 li a:hover,
+.sidebar-nav01 li a:hover,
+.sidebar-nav li a:hover {
+    /*float: right;*/
+    text-decoration: none;
+}
+
+.sidebar-nav01 li a:active,
+.sidebar-nav01 li a:focus,
+.sidebar-nav02 li a:active,
+.sidebar-nav02 li a:focus,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    /*float: right;*/
+    text-decoration: none;
+}
+.sidebar-nav01 li i,
+.sidebar-nav02 li i,
+.sidebar-nav li i {
+    /*float: right;*/
+    padding-right: 5px;
+}
+.sidebar-nav01 > .sidebar-brand,
+.sidebar-nav02 > .sidebar-brand
+{
+    height: 130px;
+    line-height: 130px;
+    font-size: 120px;
+}
+
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+}
+
+.sidebar-nav01 > .sidebar-brand a:hover,
+.sidebar-nav02 > .sidebar-brand a:hover,
+.sidebar-nav > .sidebar-brand a:hover {
+    background: none;
+}
+#menu-toggle {
+    list-style: none;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+}
+#sidebar-wrapper.active {
+    position: absolute;
+    right: 750px;
+    width: 750px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.toggle {
+    margin: 5px 5px 0px 0px;
+}
+.spacer-25px {
+  margin-bottom: 0px;
+}
+
+
+
+
+
+/*!***/
+  /*MEDIA QUERIES - CAROUSEL TESTIMONIAL*/
+/**!*/
+
+/*!* Small devices (tablets, 768px and up) *!*/
+/*@media (min-width: 768px) {*/
+    /*#quote-carousel*/
+    /*{*/
+      /*margin-bottom: 0;*/
+      /*padding: 0 40px 30px 40px;*/
+      /*margin-top: 30px;*/
+    /*}*/
+    /*.container-fluid {*/
+      /*padding-left: 0px !important;*/
+      /*padding-right: 0px !important;*/
+    /*}*/
+
+/*}*/
+
+/*!* Small devices (tablets, up to 768px) *!*/
+/*@media (max-width: 768px) {*/
+
+    /*!* Make the indicators larger for easier clicking with fingers/thumb on mobile *!*/
+
+    /*#quote-carousel .carousel-indicators {*/
+        /*bottom: -20px !important;*/
+    /*}*/
+    /*#quote-carousel .carousel-indicators li {*/
+        /*display: inline-block;*/
+        /*margin: 0px 5px;*/
+        /*width: 15px;*/
+        /*height: 120px;*/
+    /*}*/
+    /*#quote-carousel .carousel-indicators li.active {*/
+        /*margin: 0px 5px;*/
+        /*width: 20px;*/
+        /*height: 120px;*/
+    /*}*/
+
+/*}*/
+
+/*!* end carousel - testimonial *!*/
